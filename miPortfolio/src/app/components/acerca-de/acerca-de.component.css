@@ -1,24 +1,32 @@
 .row{
-    padding: 20px;
+    padding:30px;
+    
 }
 
 /*etiqueta de nombre */
 #nombre1{
     font-weight: bold;
-    margin-top: 30%;
+    margin-top: 20%;
+}
+
+#acercademi1{
+    margin-top: 3%;
 }
 
 /*estilo de foto de perfil*/
 #fotodeperfil{
+    line-height: 0;
     border-radius: 100%;
-    box-shadow: 3px 3px 3px rgb(30, 30, 30);
+    border-width:0.5vmax;
+    border-style: solid;
+    border-color: white;
 }
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 15%;
+        width: 100%;
         left: 3%;
-        top: 600px;
+        margin-top: -150px;
 }
 }
 
@@ -27,6 +35,6 @@
         position: absolute;
         width: 30%;
         left: 33%;
-        top: 630px;
+        top: -100px;
 }
 }
