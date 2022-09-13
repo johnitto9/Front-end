@@ -1,3 +1,19 @@
+.btn{
+  color: aliceblue;
+  border-color: #26d926;
+  margin-left: 20px;
+
+}
+@media (max-width: 425px) {
+  .btn{
+    color: aliceblue;
+  border-color: #26d926;
+  margin-left: 0;
+
+  }
+}
+
+
 html {
     box-sizing: border-box;
   }
@@ -25,13 +41,16 @@ html {
     scale: 80%;
   }
   .soc a, .soc svg {
-    display: block;
+    display: inline-block;
   }
   .soc a {
     display: inline-block;
     position: relative;
     height: 60px;
     width: 60px;
+    justify-content: space-between;
+    margin-top: -10%;
+
     
   }
   .soc svg {
@@ -40,7 +59,7 @@ html {
   }
   .soc em {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 0;
     margin-top: -0.75em;
     position: absolute;
     text-align: center;
